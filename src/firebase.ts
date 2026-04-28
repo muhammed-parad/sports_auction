@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAEjUw32EDISIr01Sq3iCP81cK5hn8ytc4",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "auction-hsl.firebaseapp.com",
   databaseURL: "https://auction-hsl-default-rtdb.firebaseio.com",
   projectId: "auction-hsl",
